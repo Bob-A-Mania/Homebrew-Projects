@@ -1,0 +1,91 @@
+.head{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Acme', sans-serif;
+  font-family: 'Cinzel', serif;
+}
+
+.link{
+  color: black;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: green;
+}
+
+.sidebarContent{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.mainContent{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+p{
+  text-align: center;
+}
+
+h3{
+  color: #e8ebef;
+  font-size: 100px;
+}
+
+#about{
+  font-size: 25px;
+  position: relative;
+  top: 10px;
+}
+
+.wrapper{
+  font-family: sans-serif;
+  font-size: 20px;
+  position: relative;
+}
+
+img{
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+}
+
+.content{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.content a{
+  display: block;
+  background-color: #e5a760;
+  color: black;
+  cursor: pointer;
+}
+
+.overlay{
+  opacity: 0;
+}
+
+.wrapper:hover img{
+  opacity: 1;
+}
+
+.wrapper:hover .overlay{
+  opacity: 1;
+}
+
+.content a:hover{
+  color: white;
+  text-decoration: none;
+}
